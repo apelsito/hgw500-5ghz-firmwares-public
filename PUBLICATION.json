@@ -474,19 +474,19 @@
     {
       "path": "auc",
       "original_pin": "91ffa05b5db9299ae9a95a17cfc3a73b2b21e18f",
-      "public_pin": "fd938635cdfb6036a8f453d43960dde65814a29c",
+      "public_pin": "43548e7279cdfa78d48f8def0ecc1fd1c3113952",
       "public_repository": "apelsito/hgw500-5ghz-firmware-auc-public"
     },
     {
       "path": "dsp",
       "original_pin": "b9dd90c74d07a5aea16c97a9b657cfae1c7f3ce7",
-      "public_pin": "4085fc7a69232e06402f04b39c2d67f8c4045703",
+      "public_pin": "809ed5ff4a5394d8f83c71100a4937a0782bf576",
       "public_repository": "apelsito/hgw500-5ghz-firmware-dsp-public"
     },
     {
       "path": "muc",
       "original_pin": "5d5ce35de2fad00513b80f40a6dbd111f2d23c48",
-      "public_pin": "d4317c9d71e0e70748d46988a74c0307a11a6081",
+      "public_pin": "cc767bcb6eff367d6f8d3a37b14be54501ae4399",
       "public_repository": "apelsito/hgw500-5ghz-firmware-muc-public"
     }
   ]
