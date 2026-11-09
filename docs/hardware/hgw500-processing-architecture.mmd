@@ -1,0 +1,18 @@
+flowchart TB
+  subgraph Q["Quantenna Topaz"]
+    L["1 · LHost ARC750 · 500 MHz · Linux y qdrv"]
+    M["2 · MuC · control y MAC de 5 GHz"]
+    A["3 · AuC · aceleración de transmisión"]
+    D["4 · DSP · procesamiento de señal"]
+    L -->|Carga y control| M
+    L -->|Carga y control| A
+    L -->|Carga y control| D
+    M <-->|IPC| A
+    M <-->|IPC| D
+  end
+  subgraph R["Realtek RTL8192EE"]
+    U["5 · MCU 8051 · firmware de 2,4 GHz"]
+  end
+  L <-->|Driver rtl8192ee · PCIe| U
+  classDef processor fill:#032a4b,stroke:#355c70,color:#9accfa;
+  class L,M,A,D,U processor;

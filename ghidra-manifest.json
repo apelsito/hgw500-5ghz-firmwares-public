@@ -1,0 +1,116 @@
+{
+  "schema": "openmitrastar.ghidra-quantenna-preservation-catalogue/v1",
+  "date": "2026-11-03",
+  "ghidra_version": "12.1.3",
+  "ghidra_core_commit": "8b4c91d4d5bd1549622bfbade0df199585b98365",
+  "java_version": "21",
+  "processor": "ARCompact:LE:32:default",
+  "compiler": "default",
+  "extension": {
+    "path": "ghidra_12.1.3_PUBLIC_20261025_ARCompact.zip",
+    "bytes": 218353,
+    "sha256": "8153e331b8521d5c5bb0797aaa1d7235c8246c96f72a8c55aa9b5b26db63595d"
+  },
+  "extension_source_commit": "41703a7bbac5a316e6e72381af67d5ee0e1d9d25",
+  "carriers": [
+    {
+      "role": "muc",
+      "input_sha256": "71dcd32849f122c09397490914227af6f77e51c34d15615028faa3d0fabb0fe4",
+      "schema": "openmitrastar.ghidra-quantenna-export/v1",
+      "language": "ARCompact:LE:32:default",
+      "compiler": "default",
+      "blocks": 11,
+      "functions": 1137,
+      "instructions": 110398,
+      "file_mapped_instructions": 110398,
+      "instruction_byte_mismatches": 0,
+      "decompiled_functions": 1137,
+      "decompile_failures": 0,
+      "snapshot": "quantenna-analysis.gzf",
+      "snapshot_sha256": "fa72706b0254dacc4c3529987ffe4a84bc1d1b190cebe240ff65772964a71911",
+      "target_executed": false,
+      "hardware_accessed": false,
+      "roundtrip_matches": true,
+      "facets_verified_each": 13
+    },
+    {
+      "role": "auc",
+      "input_sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6",
+      "schema": "openmitrastar.ghidra-quantenna-export/v1",
+      "language": "ARCompact:LE:32:default",
+      "compiler": "default",
+      "blocks": 12,
+      "functions": 55,
+      "instructions": 1421,
+      "file_mapped_instructions": 1421,
+      "instruction_byte_mismatches": 0,
+      "decompiled_functions": 55,
+      "decompile_failures": 0,
+      "snapshot": "quantenna-analysis.gzf",
+      "snapshot_sha256": "d4d76547efa309f0b10cb5bf11e7e72ee4e0f1b3dfa46f31edd74cb7098387ea",
+      "target_executed": false,
+      "hardware_accessed": false,
+      "roundtrip_matches": true,
+      "facets_verified_each": 13
+    },
+    {
+      "role": "dsp",
+      "input_sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd",
+      "schema": "openmitrastar.ghidra-quantenna-export/v1",
+      "language": "ARCompact:LE:32:default",
+      "compiler": "default",
+      "blocks": 6,
+      "functions": 295,
+      "instructions": 30251,
+      "file_mapped_instructions": 30251,
+      "instruction_byte_mismatches": 0,
+      "decompiled_functions": 295,
+      "decompile_failures": 0,
+      "snapshot": "quantenna-analysis.gzf",
+      "snapshot_sha256": "92748bdbabe791e6037f89e40837028351be321756db0d4bd10468bd1f788e53",
+      "target_executed": false,
+      "hardware_accessed": false,
+      "roundtrip_matches": true,
+      "facets_verified_each": 13
+    }
+  ],
+  "tools": [
+    {
+      "path": "tools/ghidra/run_ghidra.py",
+      "bytes": 4206,
+      "sha256": "efd4055e34b35ae02d751db49718c9ac5ec0e0961b903953fa06b9f8d4ab1f89"
+    },
+    {
+      "path": "tools/ghidra/scripts/compare.py",
+      "bytes": 2242,
+      "sha256": "e50ce3e356f23aa90df588c57a60ca5e1d83c0938008252ea57285481bed4e13"
+    },
+    {
+      "path": "tools/ghidra/scripts/ExportQuantenna.java",
+      "bytes": 13589,
+      "sha256": "927033a2335ebf3913a9e883be65e45916b170dbc7d76e708223f63beca84ed8"
+    },
+    {
+      "path": "tools/ghidra/scripts/MapQuantennaCarrier.java",
+      "bytes": 10314,
+      "sha256": "64add6b849783d01edaaf89ada4cd416a779180148483feb8313f10212e1f0dc"
+    },
+    {
+      "path": "tools/ghidra/scripts/SnapshotQuantenna.java",
+      "bytes": 18106,
+      "sha256": "4f984a689f9f258c7425058b09bd9d51bb0b24f4d99dc4a53b5986d3260f29f3"
+    },
+    {
+      "path": "tools/ghidra/scripts/verify_export.py",
+      "bytes": 6126,
+      "sha256": "34990ff8faf42179f5aeb83bfa9dbe51b43693c2bf8bc02bdbf12f12809ce8b7"
+    }
+  ],
+  "hardware_accessed": false,
+  "target_executed": false,
+  "limits": [
+    "Function extents and C are static Ghidra observations.",
+    "ARC LP pcode has unresolved flow targets in AuC and MuC; warnings are preserved.",
+    "Byte identity and GZF database roundtrips verify preservation; execution semantics remain separately unvalidated."
+  ]
+}

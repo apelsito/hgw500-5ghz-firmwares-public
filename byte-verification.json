@@ -1,0 +1,192 @@
+{
+  "schema": "openmitrastar.quantenna-carrier-byte-verification/v1",
+  "all_checks_passed": true,
+  "files": [
+    {
+      "role": "muc",
+      "sha256": "71dcd32849f122c09397490914227af6f77e51c34d15615028faa3d0fabb0fe4",
+      "input_bytes": 1094927,
+      "segments": [
+        {
+          "index": 0,
+          "file_bytes": 508,
+          "sha256": "4ccdd89d69b044103fb9b404aee166b3fdf9b4f7ba7339e873a36d8bd16eeacc",
+          "byte_rows": 125,
+          "bytes_verified": 508,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 0
+        },
+        {
+          "index": 1,
+          "file_bytes": 16,
+          "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+        },
+        {
+          "index": 2,
+          "file_bytes": 65136,
+          "sha256": "9d763265cc52b85c427b77ac8b692d80e2eb24e5407416e4d791e3486372ec8d",
+          "byte_rows": 16208,
+          "bytes_verified": 65136,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 1
+        },
+        {
+          "index": 3,
+          "file_bytes": 1732,
+          "sha256": "81073eb2a89e2f6290335d04b5288fa638d4cc58fc89ed12cb4a29975d991a44",
+          "byte_rows": 430,
+          "bytes_verified": 1732,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 0
+        },
+        {
+          "index": 4,
+          "file_bytes": 38496,
+          "sha256": "82edacb1343a871f6284d48fe86b93fa717fb7f38f83d424fc97b2e3e584a550",
+          "byte_rows": 9433,
+          "bytes_verified": 38496,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 7
+        },
+        {
+          "index": 5,
+          "file_bytes": 18976,
+          "sha256": "6c4f9933fd08a0035777068cc67648cc0e4da590a47ceffb3d94c7bad1de948f"
+        },
+        {
+          "index": 6,
+          "file_bytes": 6592,
+          "sha256": "accbbd5b1d011687769150ed2455578f5b7fb560d4c7a02934fe9c09c7152053"
+        },
+        {
+          "index": 8,
+          "file_bytes": 963131,
+          "sha256": "b110a73bb463df7eafa60a950bd9a19b5e759e278c9f69cae22ffe32bf458185",
+          "byte_rows": 246110,
+          "bytes_verified": 963128,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 3,
+          "first_missing_segment_offsets": [
+            963128,
+            963129,
+            963130
+          ],
+          "unknown_or_data_directive_rows": 6708
+        }
+      ],
+      "all_checks_passed": true,
+      "validation_scope": "Byte identity and linear ARC700 decoding export, without function/semantic validation."
+    },
+    {
+      "role": "auc",
+      "sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6",
+      "input_bytes": 33342,
+      "segments": [
+        {
+          "index": 0,
+          "file_bytes": 16,
+          "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+        },
+        {
+          "index": 1,
+          "file_bytes": 2762,
+          "sha256": "7f53ecdc962871ce3df81b80ac51e1e6a4acde40dd2a26d28767c4752834b4df"
+        },
+        {
+          "index": 3,
+          "file_bytes": 704,
+          "sha256": "bd505b2f048a15e1d8185d31af79b695ac060a40efeb87b7cc33a619380518be"
+        },
+        {
+          "index": 4,
+          "file_bytes": 24832,
+          "sha256": "d8a5fd5bc3a4812fa292efff78953a95bbf4d9a9a1cef451dd1beba57f522224",
+          "byte_rows": 8796,
+          "bytes_verified": 24832,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 68
+        },
+        {
+          "index": 6,
+          "file_bytes": 480,
+          "sha256": "108d2fb6deb7e467b82e44880398e7f1311738b782957b72ba1b81315e8b3ffa",
+          "byte_rows": 135,
+          "bytes_verified": 480,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 39
+        },
+        {
+          "index": 7,
+          "file_bytes": 1340,
+          "sha256": "1ecee139b4965da48b331f9ea3aff034aa1205582fa53e88d3dfc20382d1402f",
+          "byte_rows": 474,
+          "bytes_verified": 1340,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 8
+        },
+        {
+          "index": 8,
+          "file_bytes": 2868,
+          "sha256": "bd20cc8b40d8966d4699b7e50370a46e89b96a49c3da997f0cdd6d9887b8b1f8",
+          "byte_rows": 1003,
+          "bytes_verified": 2868,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 11
+        }
+      ],
+      "all_checks_passed": true,
+      "validation_scope": "Byte identity and linear ARC700 decoding export, without function/semantic validation."
+    },
+    {
+      "role": "dsp",
+      "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd",
+      "input_bytes": 246244,
+      "segments": [
+        {
+          "index": 0,
+          "file_bytes": 16,
+          "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+        },
+        {
+          "index": 1,
+          "file_bytes": 246020,
+          "sha256": "f183ad499ae5b3c6600532a3b814da1c595bbe23ae84684d51b2970f7d24c2ae",
+          "byte_rows": 75363,
+          "bytes_verified": 246020,
+          "all_assembly_rows_verified": true,
+          "all_segment_bytes_preserved_in_hex": true,
+          "bytes_without_assembly_row": 0,
+          "first_missing_segment_offsets": [],
+          "unknown_or_data_directive_rows": 7545
+        }
+      ],
+      "all_checks_passed": true,
+      "validation_scope": "Byte identity and linear ARC700 decoding export, without function/semantic validation."
+    }
+  ]
+}

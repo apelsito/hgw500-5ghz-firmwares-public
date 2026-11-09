@@ -1,0 +1,4 @@
+# ARCompact (ARC600/ARC700), big-endian
+define endian=big;
+@define ENDIAN "big"
+@include "ARCompact.sinc"

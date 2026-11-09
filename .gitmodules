@@ -1,0 +1,9 @@
+[submodule "muc"]
+	path = muc
+	url = https://github.com/apelsito/hgw500-5ghz-firmware-muc-public.git
+[submodule "auc"]
+	path = auc
+	url = https://github.com/apelsito/hgw500-5ghz-firmware-auc-public.git
+[submodule "dsp"]
+	path = dsp
+	url = https://github.com/apelsito/hgw500-5ghz-firmware-dsp-public.git

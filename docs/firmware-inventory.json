@@ -1,0 +1,238 @@
+{
+  "scope": "Sanitized technical inventory; recorded image, not a live-device query",
+  "recorded_release": "API v2 R3 / 2026-11-08",
+  "kernel": "7.3.0-openmitrastar-qtnr51-ram",
+  "modules": [
+    {
+      "image_path": "modules/aead.ko",
+      "bytes": 8636,
+      "sha256": "0c1335fe2a7acff60e1c6853deba100b6a7a3d0edf6bb4e1a7ea2eb9c3de0229"
+    },
+    {
+      "image_path": "modules/aes.ko",
+      "bytes": 19236,
+      "sha256": "d1041fb6c702424e09697d2c874244ed6fb8dd78c6123c20474dd5d41a3f7b75"
+    },
+    {
+      "image_path": "modules/bridge.ko",
+      "bytes": 183812,
+      "sha256": "246ff631d43d5b4cd3702528c2c67ab6df1f784e68390a06f9cc9ad306b9e0cf"
+    },
+    {
+      "image_path": "modules/btcoexist.ko",
+      "bytes": 170788,
+      "sha256": "e44eb70eb17c62cedc9168bb552b75c85313b15120e9c35f70cb3808b8870b60"
+    },
+    {
+      "image_path": "modules/ccm.ko",
+      "bytes": 14140,
+      "sha256": "5237d9478782984f33fafea86083f842a64a11d856852a0f7bc0f69ae9a98614"
+    },
+    {
+      "image_path": "modules/cfg80211.ko",
+      "bytes": 391460,
+      "sha256": "039d76e24a834a158a3053100108c545ecd673c975d337193a947c3106dadb75"
+    },
+    {
+      "image_path": "modules/cmac.ko",
+      "bytes": 5856,
+      "sha256": "f2e9a929152253da50fe511f98b5276457374dddcfd5575797551b831ca82069"
+    },
+    {
+      "image_path": "modules/crypto_skcipher.ko",
+      "bytes": 23240,
+      "sha256": "37b9b96878f84704b64d94c446c6d46455f81a6ef27748509ce71656bb509d21"
+    },
+    {
+      "image_path": "modules/ctr.ko",
+      "bytes": 6896,
+      "sha256": "b8803498d8e3285a9777f60a390f8757b196af133924fee18f891026f38d4ed8"
+    },
+    {
+      "image_path": "modules/ecb.ko",
+      "bytes": 5540,
+      "sha256": "10698145a511300227469a44e5bf6e5f0dffa07497aa2bc6863aaf6ecc0b13d3"
+    },
+    {
+      "image_path": "modules/firmware_class.ko",
+      "bytes": 14380,
+      "sha256": "ff7c9f298ea42c1ab4a7eeeabb584059a651286fa044736553e70a49cb307cd3"
+    },
+    {
+      "image_path": "modules/gcm.ko",
+      "bytes": 14528,
+      "sha256": "f9469b6a346dd82754642f1c02fd3b2f64fcba76f90af514976906f772627e2f"
+    },
+    {
+      "image_path": "modules/gpio.ko",
+      "bytes": 12220,
+      "sha256": "3912281271317191495d6fd1496f9d6634f929c2e47da4b2d95615eba5349985"
+    },
+    {
+      "image_path": "modules/hgw500_status_leds.ko",
+      "bytes": 9200,
+      "sha256": "9b24632441effd39d1256652bb4ba7b2d168ca7abc17a64237246df46afe579f"
+    },
+    {
+      "image_path": "modules/libaes.ko",
+      "bytes": 28652,
+      "sha256": "0ff27ef74b1e0a7c58ebf86d43b9043ced08da0623b774ae480146772ab4aee0"
+    },
+    {
+      "image_path": "modules/libarc4.ko",
+      "bytes": 3144,
+      "sha256": "a00d03924b393f6d946b38d00a6c6d014e02a27b4733a7137cb667aa51336944"
+    },
+    {
+      "image_path": "modules/libgf128hash.ko",
+      "bytes": 6396,
+      "sha256": "60765c3a4d120a9fa10e6eb2af56000fbb2276d08373561e99802ff2f2e16d67"
+    },
+    {
+      "image_path": "modules/llc.ko",
+      "bytes": 8792,
+      "sha256": "c9cdd08ef964ff93ae68194b16eb821a82f4dd1380cf658b00b86f15187cb1f3"
+    },
+    {
+      "image_path": "modules/mac80211.ko",
+      "bytes": 606880,
+      "sha256": "cfc0468b71820613428077f70a2964935fc515e816635a2dca4e7365debc5097"
+    },
+    {
+      "image_path": "modules/quantenna/board_compat.ko",
+      "bytes": 29604,
+      "sha256": "7b56b04e4a1aeb4447f8b7a49bfe9a1ca7b71f11c897b85df68c2ca7dba11077"
+    },
+    {
+      "image_path": "modules/quantenna/dmautil.ko",
+      "bytes": 5304,
+      "sha256": "ff7b4d9aa20fd80e34d1307e19ca10b9a18d732b8c9bdfed8f32e1c836e61a93"
+    },
+    {
+      "image_path": "modules/quantenna/fwt_if.ko",
+      "bytes": 11912,
+      "sha256": "9a71908f1ce49efe4786dab2a8187ed55566ff0a6b5d166fcb3ddadceead00d6"
+    },
+    {
+      "image_path": "modules/quantenna/gpio.ko",
+      "bytes": 12220,
+      "sha256": "3912281271317191495d6fd1496f9d6634f929c2e47da4b2d95615eba5349985"
+    },
+    {
+      "image_path": "modules/quantenna/hbm.ko",
+      "bytes": 21884,
+      "sha256": "6238f40642fc9413392b6aac1d2c39435e35d70c3f718670082a30f67118e832"
+    },
+    {
+      "image_path": "modules/quantenna/iputil.ko",
+      "bytes": 7552,
+      "sha256": "4f237e1049f3f451db83a3ddc3d88126e611942d8d84a863048f88ed58cd757f"
+    },
+    {
+      "image_path": "modules/quantenna/om73_sram.ko",
+      "bytes": 13220,
+      "sha256": "88958d79400259c7cbfdf4e108329054f4c151ea369462a7660956a8c318933d"
+    },
+    {
+      "image_path": "modules/quantenna/qdrv.ko",
+      "bytes": 1371060,
+      "sha256": "a2fc0569ab4008a60694db449a6e8385c2c7c42865b8692d50fc1a34744c7b1b"
+    },
+    {
+      "image_path": "modules/quantenna/qtn_platform_support.ko",
+      "bytes": 8464,
+      "sha256": "859a322a15cb69a8a4bfef5f4e0aff1737b905431bfc503ab90dcd6065c85942"
+    },
+    {
+      "image_path": "modules/quantenna/qtn_pm_qos_compat.ko",
+      "bytes": 6696,
+      "sha256": "95301b718c317877d2e02d38627dd63b29c8ee4acd011b536da18176449dfbf3"
+    },
+    {
+      "image_path": "modules/quantenna/qtn_tsens.ko",
+      "bytes": 5796,
+      "sha256": "c869a30562b57287163f309314532ab4f44379588912e0aa8af6de2687cfdc0b"
+    },
+    {
+      "image_path": "modules/quantenna/runtime_compat.ko",
+      "bytes": 7572,
+      "sha256": "b1d11d2ed6ab3ab5df0a6a823ac137b0843d0df833d943f0328656c54e73d7ee"
+    },
+    {
+      "image_path": "modules/quantenna/switch_tqe.ko",
+      "bytes": 39036,
+      "sha256": "5f1ba6bbd5dc62802e0cb6b4d562d5b867dd62983275ec07be35ae36203bef46"
+    },
+    {
+      "image_path": "modules/quantenna/switch_vlan.ko",
+      "bytes": 20596,
+      "sha256": "53154d987d2c1d9d1df589a847add6bf7b454f03e6f0e65475ef622db6cf25e4"
+    },
+    {
+      "image_path": "modules/quantenna/temp_sens.ko",
+      "bytes": 5332,
+      "sha256": "a0681b6da031bacc65c9f20454bc21421d5cc8aa0268885f50cf365005a6f0d8"
+    },
+    {
+      "image_path": "modules/quantenna/topaz_congest_queue.ko",
+      "bytes": 24604,
+      "sha256": "f29f465a0f5c7593d201013c4b053c5754a71a81788ad03dff690fc1ea5e49fa"
+    },
+    {
+      "image_path": "modules/quantenna/wlan_ccmp.ko",
+      "bytes": 10028,
+      "sha256": "65afcd3f8df51f36e42035ec58447a3745822d796f85a5bda32c3db882bf8fcd"
+    },
+    {
+      "image_path": "modules/quantenna/wlan_scan_ap.ko",
+      "bytes": 16220,
+      "sha256": "5935be803f32bc9e961448d7c3b59be8c678959d2e0198354a86f37d2e82d49c"
+    },
+    {
+      "image_path": "modules/quantenna/wlan_scan_sta.ko",
+      "bytes": 19100,
+      "sha256": "0ed777c71b66b02df711e76277463b07eef0312ed692dd7acbdb2b3b4e22fa2b"
+    },
+    {
+      "image_path": "modules/quantenna/wlan_tkip.ko",
+      "bytes": 13696,
+      "sha256": "21179715eae8b72ed52d7185db6db67ca2da15631b4b1ecd6758b4929d0e8bfa"
+    },
+    {
+      "image_path": "modules/quantenna/wlan_xauth.ko",
+      "bytes": 3744,
+      "sha256": "7303c92f78fe6d94509d733de9086b207d5be25d312dfb49b12279bb321314aa"
+    },
+    {
+      "image_path": "modules/rtl8192ee.ko",
+      "bytes": 117840,
+      "sha256": "79bbdd4a1772d22131d1adb04ac7f76042fe87a8f0e49ef5a878e09952992521"
+    },
+    {
+      "image_path": "modules/rtl_pci.ko",
+      "bytes": 51580,
+      "sha256": "244f52ba33cc19eef649b233b4a98ca198ed5919afcef93eaaaf82cc199584f4"
+    },
+    {
+      "image_path": "modules/rtlwifi.ko",
+      "bytes": 97440,
+      "sha256": "2931c062a86304678b4f3ebd144ae66cacdfe10633b4ac4954ddecee1608d98b"
+    },
+    {
+      "image_path": "modules/sha256.ko",
+      "bytes": 11552,
+      "sha256": "0d7944a47f9e4a51a6f2c6515a3f73a14675d71bcefcb6db8b3b6128a163a456"
+    },
+    {
+      "image_path": "modules/stp.ko",
+      "bytes": 4060,
+      "sha256": "137a83846c854e5ff3bad929b316f0548fa9c53cc3a76f706785c7ada2f666e2"
+    },
+    {
+      "image_path": "qtn-topaz-emac-eth73.ko",
+      "bytes": 31696,
+      "sha256": "11e041c7cd52b56ed1b0cbd1f0e3845c0ffc22c1b209d7b268c2825be274ade1"
+    }
+  ],
+  "excluded": "Workstation paths, device identities, credentials, keys, calibration, full rootfs and per-unit image bodies"
+}

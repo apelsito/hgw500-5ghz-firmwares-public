@@ -1,0 +1,9 @@
+{
+  "extension": "ARCompact",
+  "ghidra_version": "12.1.3",
+  "url": "https://github.com/aleph-void/ghidra-arcompact/releases/download/ghidra-rare-v1.0.0/ghidra_12.1.3_PUBLIC_20261025_ARCompact.zip",
+  "source_repository": "https://github.com/aleph-void/ghidra-arcompact",
+  "source_commit": "41703a7bbac5a316e6e72381af67d5ee0e1d9d25",
+  "sha256": "8153e331b8521d5c5bb0797aaa1d7235c8246c96f72a8c55aa9b5b26db63595d",
+  "installed_at": "/workspace/build/.config/ghidra/ghidra_12.1.3_PUBLIC/Extensions/ARCompact"
+}

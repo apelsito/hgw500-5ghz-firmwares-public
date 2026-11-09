@@ -1,0 +1,172 @@
+{
+  "schema": "openmitrastar.hardware-architecture-evidence/v1",
+  "date": "2026-11-03",
+  "device_model": "HGW-500BNA-QCv2 A2",
+  "diagram": {
+    "path": "hgw500-processing-architecture.png",
+    "original_filename": "mermaid-diagram.png",
+    "sha256": "9b11049483af6b9823a7d27847e077bd584375a4d6f14319b597c788a6f48ab7",
+    "bytes": 157066,
+    "width": 1504,
+    "height": 1396,
+    "origin": "Diagram supplied by the owner in this chat",
+    "original_bytes_preserved": true,
+    "classification": "Architecture illustration; supporting sources are listed separately"
+  },
+  "programmable_units": [
+    {
+      "number": 1,
+      "name": "LHost",
+      "location": "Quantenna Topaz",
+      "cpu": "ARC750",
+      "clock_mhz": 500,
+      "role": "Linux host CPU"
+    },
+    {
+      "number": 2,
+      "name": "MuC",
+      "location": "Quantenna Topaz",
+      "role": "5 GHz control and MAC firmware"
+    },
+    {
+      "number": 3,
+      "name": "AuC",
+      "location": "Quantenna Topaz",
+      "role": "Radio/transmission auxiliary acceleration firmware"
+    },
+    {
+      "number": 4,
+      "name": "DSP",
+      "location": "Quantenna Topaz",
+      "role": "Specialized radio/signal-processing firmware"
+    },
+    {
+      "number": 5,
+      "name": "8051 MCU",
+      "location": "Realtek RTL8192EE",
+      "role": "2.4 GHz microfirmware"
+    }
+  ],
+  "memory": {
+    "spi_nor_bytes": 16777216,
+    "spi_jedec_id": "c22018",
+    "ddr_type": "DDR3",
+    "ddr_oem_configured_bytes": 134217728,
+    "ddr_bus_width_bits": 16,
+    "linux_memtotal_kib_observed": 51760,
+    "linux_memory_window": "0x8493a000..0x87ffffff",
+    "sram_total_capacity": "Not established by this evidence"
+  },
+  "observations": [
+    {
+      "local_path": "HGW500/out/device/20261103-core-r1b-cold-check/rj45.json",
+      "sha256": "a44ff00bcd9e3896a04c7193409632f5bb3ac55ffc2771e06dcea304e32fe425",
+      "bytes": 78690,
+      "observation": [
+        "processor [0]: ARC750 (ARCompact ISA)",
+        "CPUs=1",
+        "sched_clock: 32 bits at 500MHz",
+        "MemTotal: 51760 kB",
+        "Memory window: 0x8493a000..0x87ffffff"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "HGW500/out/device/20261103-core-r1b-reset/uart.bin",
+      "sha256": "f4e553e18a8292d8c31a2995a192a122fc07531c50dd4e1c66295eb10bca9db4",
+      "bytes": 3312,
+      "observation": [
+        "DDR_INIT: type = 16, speed = 2, size = 134217728"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "HGW500/out/device/20261103-uboot-linux-spi-fixed/uart.bin",
+      "sha256": "d039615d7f690e17d1c3006d102053d8231612e8a8be864c91f2dd3f72b5787e",
+      "bytes": 9190,
+      "observation": [
+        "QTNSF id=c22018 status=00 controller=00000004 bytes=01000000"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "hgw500-5ghz-firmwares/reference-loader/qdrv_fw.c",
+      "sha256": "6c261926750aefcc77ac49b710cc36fb9007ad0aae1aa60374290a0f131c7402",
+      "bytes": 14548,
+      "observation": [
+        "qdrv_fw_load_muc",
+        "qdrv_fw_load_auc",
+        "qdrv_fw_load_dsp"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "hgw500-5ghz-driver-reverse-engineer/vendor/legacy-gpl/include/qtn/topaz_tqe_cpuif.h",
+      "sha256": "dc4e97d0bb987f750ace2ede894a6b05e02f6d6b3d7b070e1f796b87746acc15",
+      "bytes": 17076,
+      "observation": [
+        "LHost, MuC, DSP and AuC are distinct processor-facing TQE ports"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "hgw500-5ghz-driver-reverse-engineer/vendor/legacy-gpl/include/qtn/topaz_hbm_cpuif.h",
+      "sha256": "8e99a3d830c4697bea0fa8cab9e3827089e9d1bfd7cf1a4b86538d0d1077ee67",
+      "bytes": 24682,
+      "observation": [
+        "LHost, MuC, AuC and DSP are separate HBM requestors"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "HGW500/sources/uboot-hgw500/stage1/README.md",
+      "sha256": "3f71c42bd51eaccafaa3fc3557b768642e62ce2c1be6b044b3e67b8f6891378d",
+      "bytes": 6579,
+      "observation": [
+        "OEM DDR3 arguments: ddr3_init(16, 2, 134217728)"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "hgw500-2ghz-driver-microfirmware/README.md",
+      "sha256": "41d036875a573b60b56d4d64eb45b9f02c5aef386551e16b8989ab830930874c",
+      "bytes": 3834,
+      "observation": [
+        "RTL8192EE MCU uses 8051; versions 19.0 and 35.7 target one MCU"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "hgw500-5ghz-driver-reverse-engineer/vendor/legacy-gpl/include/qtn/txbf_mbox.h",
+      "sha256": "a20439b2fcd9a81492423761d1ae31647c3d22f5493f78cd790fb476b5d3756d",
+      "bytes": 15407,
+      "observation": [
+        "QTN_TXBF_MUC_TO_DSP_MBOX_INT",
+        "QTN_TXBF_DSP_TO_MUC_MBOX_INT"
+      ],
+      "raw_capture_published": false
+    },
+    {
+      "local_path": "hgw500-5ghz-driver-reverse-engineer/vendor/legacy-gpl/include/qtn/topaz_shared_params.h",
+      "sha256": "5cb72b501f3af7bc574d939d9c9403ebda9e6311c345840e1861a257fdd78c4f",
+      "bytes": 14531,
+      "observation": [
+        "SHARED_PARAMS_IPC_M2A_*",
+        "SHARED_PARAMS_IPC_A2M_AUC_BOOTED_CMD"
+      ],
+      "raw_capture_published": false
+    }
+  ],
+  "limitations": [
+    "Five programmable execution units are identified; this is not a physical package count or an SMP CPU count.",
+    "The PNG is a conceptual diagram. The Mermaid text is an editable transcription, not the original source file.",
+    "Load/control and IPC arrows summarize source interfaces, not a complete bus topology or a live execution trace.",
+    "Linux/qdrv in the diagram describes the architectural host role; Core Boot R1 has not physically integrated the 5 GHz driver.",
+    "Coprocessor role labels are high-level descriptions; complete functional reconstruction remains open.",
+    "TQE, FWT, HBM and DMA are separate hardware blocks and are not added to this firmware-backed processor count.",
+    "DDR capacity records the OEM initialization profile; independent full-capacity memory testing and autonomous DDR initialization remain open.",
+    "The Linux memory window is smaller than DDR capacity. The complete reservation map and SRAM capacity are not established here.",
+    "Raw unit captures, identities, keys, calibration and personalized images remain local."
+  ],
+  "hardware_accessed_for_this_documentation_task": false
+}

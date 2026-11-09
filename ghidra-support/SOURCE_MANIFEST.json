@@ -1,0 +1,369 @@
+{
+  "schema": "openmitrastar.ghidra-arcompact-preservation/v1",
+  "date": "2026-11-03",
+  "source_repository": "https://github.com/aleph-void/ghidra-arcompact",
+  "source_commit": "41703a7bbac5a316e6e72381af67d5ee0e1d9d25",
+  "source_files": 46,
+  "source_license": "Apache-2.0",
+  "ghidra_version": "12.1.3_PUBLIC",
+  "languages": [
+    "ARCompact:LE:32:default",
+    "ARCompact:BE:32:default"
+  ],
+  "extension_package": {
+    "path": "ghidra_12.1.3_PUBLIC_20261025_ARCompact.zip",
+    "bytes": 218353,
+    "sha256": "8153e331b8521d5c5bb0797aaa1d7235c8246c96f72a8c55aa9b5b26db63595d"
+  },
+  "excluded_unversioned": [
+    ".git",
+    "build",
+    "dist",
+    "caches"
+  ],
+  "hardware_accessed": false,
+  "files": [
+    {
+      "path": "extension-receipt.json",
+      "bytes": 510,
+      "sha256": "91fb76b6efcef2061fb9438ed9c5a8aff20b7ec8dbcc38a67f8241a5d55d098d"
+    },
+    {
+      "path": "ghidra_12.1.3_PUBLIC_20261025_ARCompact.zip",
+      "bytes": 218353,
+      "sha256": "8153e331b8521d5c5bb0797aaa1d7235c8246c96f72a8c55aa9b5b26db63595d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3149,
+      "sha256": "9b4104abc09489ab70efe3643b3a44801f773959fadb26e55a66691d53011c46"
+    },
+    {
+      "path": "source/.github/workflows/ghidra-rare-release.yml",
+      "bytes": 1237,
+      "sha256": "1d516cb29878530145b4b53a038ff98729d136df2f5281c94a63e2e3d58cdab1",
+      "git_mode": "100644",
+      "git_object": "ffd47c80bb445b519e40a2fcf3439521ad8bd60a"
+    },
+    {
+      "path": "source/.gitignore",
+      "bytes": 46,
+      "sha256": "10287156834e07c7790eca7f78a1f7de19523a1eb21b7424097e289e86b72b7c",
+      "git_mode": "100644",
+      "git_object": "b05c80560f1c9e6e304dd6ccb72e0959f4adb521"
+    },
+    {
+      "path": "source/build.gradle",
+      "bytes": 1175,
+      "sha256": "d471cb02d1398cdb4fdfca02cd86506142b3ed3997bab65e0da45dcde13efc54",
+      "git_mode": "100644",
+      "git_object": "c8939a3296d6b74cb829d9964c3f70b7b6beb416"
+    },
+    {
+      "path": "source/CREDITS.md",
+      "bytes": 6307,
+      "sha256": "c6fd53588d047db659bd26a98fca36121a2001e4254c40f8c2b07e9509e9a535",
+      "git_mode": "100644",
+      "git_object": "9469cb89c01cc32fb1c2bd4c02b95f126b6bdc6a"
+    },
+    {
+      "path": "source/data/buildLanguage.xml",
+      "bytes": 1662,
+      "sha256": "5a816edd08ff1b72c7846a6c6496d456b32bb4273ef5203544b40bc409d4cfb8",
+      "git_mode": "100644",
+      "git_object": "1e2a6276bc6917a403f259bde8b99fd254a4ad40"
+    },
+    {
+      "path": "source/data/languages/ARCompact_be.cspec",
+      "bytes": 3846,
+      "sha256": "291ed597c3fc742b09d73ba28c22d2ef61ecd453bdf0fb8fe2daeb28f669d354",
+      "git_mode": "100644",
+      "git_object": "78247f7e0d2d972dda73e4208149b4f9d4b7f71b"
+    },
+    {
+      "path": "source/data/languages/ARCompact_be.slaspec",
+      "bytes": 106,
+      "sha256": "4f5c69638dde1be45d39c977950b14d333bc3ddbb51cd1b3f7135f4d3d1ca05f",
+      "git_mode": "100644",
+      "git_object": "fb59aa8f369754965c54ad1cfdc76ef7addf5dd0"
+    },
+    {
+      "path": "source/data/languages/ARCompact_ops.sinc",
+      "bytes": 156523,
+      "sha256": "9f064c6e055186f9bc45b8fc3e36b1cfd40f4a32f8e8f89dcc3438a4183dc874",
+      "git_mode": "100644",
+      "git_object": "2b6b6bfb60086ecff6a4eb40f0f7b3c504ad264e"
+    },
+    {
+      "path": "source/data/languages/ARCompact.cspec",
+      "bytes": 3847,
+      "sha256": "b9a043c6c9be9d0c6739306d81364a58b13d1f095520993893019ac476eeeb6f",
+      "git_mode": "100644",
+      "git_object": "29162db4587408e020fcd5c803715bb22a8db116"
+    },
+    {
+      "path": "source/data/languages/ARCompact.dwarf",
+      "bytes": 1035,
+      "sha256": "08e45fac6cacc5f0138d28bb39e14d49edc46b1d2c6248e38cc169c26d1a8b76",
+      "git_mode": "100644",
+      "git_object": "f5a216c69294cdcbe4472b2c83e24d40e928e273"
+    },
+    {
+      "path": "source/data/languages/ARCompact.ldefs",
+      "bytes": 1269,
+      "sha256": "9316e552c584f08dfe7bac39d1b1308b51c28b039b96ff63aa9dd7d06ecdd0a8",
+      "git_mode": "100644",
+      "git_object": "aef5be56e6f30c0a9b0e02642c16c002941f4e30"
+    },
+    {
+      "path": "source/data/languages/ARCompact.opinion",
+      "bytes": 196,
+      "sha256": "7f6645190a5be92cfc65cadeeba81f0f3af73405815b9b97d2535e90efb8c037",
+      "git_mode": "100644",
+      "git_object": "bc403fc12f048545e1ec381543d337c6f0654abd"
+    },
+    {
+      "path": "source/data/languages/ARCompact.pspec",
+      "bytes": 15455,
+      "sha256": "a87584f548b0e3eb74026bbc229900094764d651f7aa332aa04aa5535d7e3f5f",
+      "git_mode": "100644",
+      "git_object": "9b67bdc589ead1591a5d7fc33169a6db99a15e78"
+    },
+    {
+      "path": "source/data/languages/ARCompact.sinc",
+      "bytes": 47999,
+      "sha256": "9e799f73ba489918f6ec48bebf26eb3514272e7b3438b3c9f915ad9f9280d127",
+      "git_mode": "100644",
+      "git_object": "38a2e82019ed19e6bf6a929741b484d68e63b8a6"
+    },
+    {
+      "path": "source/data/languages/ARCompact.slaspec",
+      "bytes": 115,
+      "sha256": "7a1b4c747df8f8712989e228bca5544b7d5e9a8a105add5e727f32d09453e8c0",
+      "git_mode": "100644",
+      "git_object": "7938fc737aadc338d1b22490d953d70ddbb1db77"
+    },
+    {
+      "path": "source/data/sleighArgs.txt",
+      "bytes": 243,
+      "sha256": "8a21939c4cb96f0fbf1acc4d287a2900d3102578b036fab24297291622bda2bf",
+      "git_mode": "100644",
+      "git_object": "10ba19edc584ff242508382f3d01749e8bfb725c"
+    },
+    {
+      "path": "source/extension.properties",
+      "bytes": 390,
+      "sha256": "22a55a1fa532984afac4e7a4da5eb511b37d6bca9dac66745c3c3c31795473b2",
+      "git_mode": "100644",
+      "git_object": "d4d5ecc6aeec4b495e8bd76162b160b2c474e425"
+    },
+    {
+      "path": "source/GHIDRA-RARE.md",
+      "bytes": 13934,
+      "sha256": "6255ec0877a5892a3e4c715a102cf9ac27cb35868361804f93b2103ad5a602f7",
+      "git_mode": "100644",
+      "git_object": "cbefd6a6d3ab545e7ebfb2550fbb1e4c3563534b"
+    },
+    {
+      "path": "source/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_mode": "100644",
+      "git_object": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "source/Module.manifest",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_mode": "100644",
+      "git_object": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 4602,
+      "sha256": "43a2e22d47c2fd8d0addfbbce9d9a17b50965eef297895752d7a45de8893d188",
+      "git_mode": "100644",
+      "git_object": "688dd391fefb9b64dfe823a7a2f4d27bfc1d6c24"
+    },
+    {
+      "path": "source/src/main/java/ghidra/app/util/bin/format/elf/extend/ARCompact_ElfExtension.java",
+      "bytes": 5625,
+      "sha256": "ecc8df583cf95c04cd9264f90078ada8dea22636bf193c6fb26ad9d314b89343",
+      "git_mode": "100644",
+      "git_object": "083496d178f05ea5c00b6acf48780548ece377f4"
+    },
+    {
+      "path": "source/src/main/java/ghidra/app/util/bin/format/elf/relocation/ARCompact_ElfRelocationHandler.java",
+      "bytes": 6934,
+      "sha256": "06768b15b9801f9806ede046f685c1c1ccc475d07dd224990ee371968424d67d",
+      "git_mode": "100644",
+      "git_object": "1ecb2e4a1efb2ca21dd8eeb56c7682128bad6c82"
+    },
+    {
+      "path": "source/src/main/java/ghidra/app/util/bin/format/elf/relocation/ARCompact_ElfRelocationType.java",
+      "bytes": 2238,
+      "sha256": "6238a0d05b1ba797d7725da8415e6f457007f45adfdd4605784794c7298d5047",
+      "git_mode": "100644",
+      "git_object": "2b2ea64c6dc135b95912ee7d76274d03ea451d07"
+    },
+    {
+      "path": "source/test/build-jar.sh",
+      "bytes": 725,
+      "sha256": "bdb7587a7b11b6affa97716a216be885456b29c6d650eea32c79b551f683884d",
+      "git_mode": "100755",
+      "git_object": "ad9d2a38cfd85fc84db03b7e06b0bf468bbb733c"
+    },
+    {
+      "path": "source/test/compare.py",
+      "bytes": 12140,
+      "sha256": "b372e7a2f049c54837b6176432354e0aec467de819087023ceeebbed11abe2dc",
+      "git_mode": "100644",
+      "git_object": "7461cfe21166ae4ee35d2abe49dfbf5e9cf0699e"
+    },
+    {
+      "path": "source/test/CoverageCheck.java",
+      "bytes": 6296,
+      "sha256": "cea702a4ef243f4bfa0a40a2dbf04a6961aac66a9365c58071d0044a716eface",
+      "git_mode": "100644",
+      "git_object": "da5d1c7d3db8038f77ef9c3c0b4858078305034d"
+    },
+    {
+      "path": "source/test/decode-diff.sh",
+      "bytes": 1072,
+      "sha256": "b632015aeb979f9c09210814fa503c72413d7c5ebda3c4a64f761ea5eab8b0e5",
+      "git_mode": "100755",
+      "git_object": "95d9c18edf509b3b8c0e27459f029a6c7f757d5c"
+    },
+    {
+      "path": "source/test/DumpMem.java",
+      "bytes": 918,
+      "sha256": "57209d655636c10ef8afe630f6a83962c95c7064a22bfb822f11cbac176cf063",
+      "git_mode": "100644",
+      "git_object": "208d394c0afe03fafa177eb68ba3ae7ebf67f174"
+    },
+    {
+      "path": "source/test/DumpSlots.java",
+      "bytes": 2186,
+      "sha256": "045b4498a798ddc5a9c7b6d2f90ac176071d4450849fc59c70cb5be627e672eb",
+      "git_mode": "100644",
+      "git_object": "0c7948c9ebd38848e6937d44481872c666574acf"
+    },
+    {
+      "path": "source/test/elf/relocs.s",
+      "bytes": 580,
+      "sha256": "5a4e596cd5cb50ae45bcb91623d276d79ca77439a37f57ab67d3e63d91b361d3",
+      "git_mode": "100644",
+      "git_object": "b134b98513523a3f9c0268bfc5eadf8f30a6ca6d"
+    },
+    {
+      "path": "source/test/emu_tests.py",
+      "bytes": 12496,
+      "sha256": "2e678887ed4682314c6f95694014bfb7f10518aac91c162910d8fd0a6dbe1367",
+      "git_mode": "100644",
+      "git_object": "2da8db4c8baba9ddbd96936aaa51f59eaa5f0e2b"
+    },
+    {
+      "path": "source/test/EmuCheck.java",
+      "bytes": 3315,
+      "sha256": "da46426ab713c69d1351296d10abadc01ab389f724a5fdb0a3b49fefaa916a02",
+      "git_mode": "100644",
+      "git_object": "fcb3217e6438c335a848ab1eac7a2641ee380ee5"
+    },
+    {
+      "path": "source/test/env.sh",
+      "bytes": 517,
+      "sha256": "4041a965355ffb8cce6a932096731a54765b0d28cedd8be0276a12547dc963d9",
+      "git_mode": "100755",
+      "git_object": "6a1ff6299bc5054682b1c6b31bebc6f0fdc62ba2"
+    },
+    {
+      "path": "source/test/fetch-real-samples.sh",
+      "bytes": 3202,
+      "sha256": "ecb28f371e315822d6c10c20d63363dd812d43ee25a6b4b6d7346ff374e97db8",
+      "git_mode": "100755",
+      "git_object": "127b9bdf1eeba2abd2960a602cd0d12db2ee496a"
+    },
+    {
+      "path": "source/test/gen_corpus.py",
+      "bytes": 2888,
+      "sha256": "2ffc5f9f914fd312e170f1dc089ded04c59059a95d8bbfd29fb4dbcda36f64af",
+      "git_mode": "100644",
+      "git_object": "f9a1a1e6f2b9a9b4ccfc7e6f97f5f8a6062cc97e"
+    },
+    {
+      "path": "source/test/ghidra-script.sh",
+      "bytes": 992,
+      "sha256": "4ed1e55de01e4939f0dc527c4898ce0133be684c01ab9b30abb6848d1357d8e9",
+      "git_mode": "100755",
+      "git_object": "160f5ddce19a8e0a217e3d2fc20a1a1639489e1e"
+    },
+    {
+      "path": "source/test/ghidra-slots.sh",
+      "bytes": 759,
+      "sha256": "c4baa596ab56748a0c7931abf17ee543a20174d3a8a0b19ac24af76ba27cfd97",
+      "git_mode": "100755",
+      "git_object": "e31598c9d0c17f1cf7c708f3a6f79d65ad7e8d6e"
+    },
+    {
+      "path": "source/test/rawcmp.py",
+      "bytes": 1070,
+      "sha256": "81f819c24dde22109011aafa38d714d5b06ea53e6daba7a06d876a5175c76f64",
+      "git_mode": "100644",
+      "git_object": "349b6ad80dcbba4be0bd2d7e8657bf46686d30ed"
+    },
+    {
+      "path": "source/test/real-binaries.sh",
+      "bytes": 2092,
+      "sha256": "52352adfd5f0556d109ac45fd0052761d0a3f42bd20744a1dde639748b479b10",
+      "git_mode": "100755",
+      "git_object": "533013123b6501149378df43d519c06ea306f7f5"
+    },
+    {
+      "path": "source/test/RealCheck.java",
+      "bytes": 8043,
+      "sha256": "e5662fd90130786ddc877f01d5a912c1879bba073226cadf3d0038ec267ed0d8",
+      "git_mode": "100644",
+      "git_object": "51a0083b76569870c0d1713c54d5f1130b047eac"
+    },
+    {
+      "path": "source/test/realcmp.py",
+      "bytes": 2268,
+      "sha256": "a4e8555d80e2c13f8938d7678841e4d7d040189343b7add6e2b391248944131e",
+      "git_mode": "100644",
+      "git_object": "346b16e4b65fce8001aaaf7c3831296ee2f99719"
+    },
+    {
+      "path": "source/test/reloc-check.sh",
+      "bytes": 1574,
+      "sha256": "9cca16cb5bb2ab54684a328f6c3eb72f32a58f945d955735c22a80f4ac7ac6cc",
+      "git_mode": "100755",
+      "git_object": "9fd5c8814d1e96977a80865ed238f5d371ecd98a"
+    },
+    {
+      "path": "source/test/run-tests.sh",
+      "bytes": 4683,
+      "sha256": "a7221da0f73be17bcfd4cb7b4e67db19adc85cdf0bad8a509e4c7d3e5baaa83d",
+      "git_mode": "100755",
+      "git_object": "babfddf084db249aa7d6f48ac6e9e7b745075ebb"
+    },
+    {
+      "path": "source/test/slotdis.c",
+      "bytes": 3397,
+      "sha256": "0980b5d89600f003357ea6cab9b22d24c7c2fda179e9513b8553497ea737d869",
+      "git_mode": "100644",
+      "git_object": "cc1f689b518a84bdcec78de661b3d0af83ec25cb"
+    },
+    {
+      "path": "source/tools/gen_arcompact.py",
+      "bytes": 24682,
+      "sha256": "4307d030c5af81550127504244dfce920eb98eff59d499962830cc27b06f406d",
+      "git_mode": "100644",
+      "git_object": "f942e09efa162fb4391bdd27cae4b8ba4490916b"
+    },
+    {
+      "path": "verify_support.py",
+      "bytes": 2516,
+      "sha256": "edf34da7f13a3aa122dc18d2ffaba8be93fe0070f45cc89d5543e026f6e944c6"
+    }
+  ]
+}

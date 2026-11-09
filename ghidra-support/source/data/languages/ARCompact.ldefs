@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- See Relax specification: Ghidra/Framework/SoftwareModeling/data/languages/language_definitions.rxg -->
+<language_definitions>
+  <language processor="ARCompact"
+            endian="little"
+            size="32"
+            variant="default"
+            version="1.1"
+            slafile="ARCompact.sla"
+            processorspec="ARCompact.pspec"
+            id="ARCompact:LE:32:default">
+    <description>ARCompact (ARC600/ARC700), little-endian</description>
+    <compiler name="default" spec="ARCompact.cspec" id="default"/>
+    <external_name tool="DWARF.register.mapping.file" name="ARCompact.dwarf"/>
+    <external_name tool="gnu" name="arc"/>
+  </language>
+  <language processor="ARCompact"
+            endian="big"
+            size="32"
+            variant="default"
+            version="1.1"
+            slafile="ARCompact_be.sla"
+            processorspec="ARCompact.pspec"
+            id="ARCompact:BE:32:default">
+    <description>ARCompact (ARC600/ARC700), big-endian</description>
+    <compiler name="default" spec="ARCompact_be.cspec" id="default"/>
+    <external_name tool="DWARF.register.mapping.file" name="ARCompact.dwarf"/>
+    <external_name tool="gnu" name="arc"/>
+  </language>
+</language_definitions>

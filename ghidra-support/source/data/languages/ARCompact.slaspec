@@ -1,0 +1,4 @@
+# ARCompact (ARC600/ARC700), little-endian
+define endian=little;
+@define ENDIAN "little"
+@include "ARCompact.sinc"

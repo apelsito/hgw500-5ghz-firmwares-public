@@ -1,0 +1,493 @@
+{
+  "source_repository": "apelsito/hgw500-5ghz-firmwares",
+  "source_commit": "fc76867700e57521a34cfdfe17077be21140cea5",
+  "source_default_branch": "main",
+  "files_prepared": 86,
+  "normalized_files": [
+    {
+      "path": "ghidra-support/README.md",
+      "original_sha256": "9b4104abc09489ab70efe3643b3a44801f773959fadb26e55a66691d53011c46",
+      "export_sha256": "6d44a5bc0e81a359cd73b318aff738adaf600517f3045bc0beb2765975543313",
+      "reason": "Personal workstation path normalization"
+    },
+    {
+      "path": "ghidra-support/extension-receipt.json",
+      "original_sha256": "91fb76b6efcef2061fb9438ed9c5a8aff20b7ec8dbcc38a67f8241a5d55d098d",
+      "export_sha256": "bcbfb66d7f6cf7c7730ce0f5a62e56bde2a447f629ebf82f322c8b0ab86a75e7",
+      "reason": "Personal workstation path normalization"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "AGENTS.md",
+      "reason": "Private authoring instructions"
+    }
+  ],
+  "status": "PUBLIC_SOURCE_SNAPSHOT",
+  "note": "Historical/private verification receipts remain historical. This candidate is not an exact preservation clone and does not imply a new firmware build or physical acceptance.",
+  "public_repository": "apelsito/hgw500-5ghz-firmwares-public",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "d460c4902d269280852598b877edf10fbb05306d3234b2acf6a8dae3df7c6d04"
+    },
+    {
+      "path": ".gitmodules",
+      "bytes": 303,
+      "sha256": "19f9333d074b4ee0f9cfee5eb9218b900cbf9686640755feebd1ffcbc672a5ec"
+    },
+    {
+      "path": "LICENSES/GPL-2.0.txt",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3458,
+      "sha256": "bcd41b22a17e3f80466d835c8981da345f4f493b73fcfc8109d6499e01823ccf"
+    },
+    {
+      "path": "analysis-manifest.json",
+      "bytes": 3224,
+      "sha256": "620e8eecd072634d17d1d5f05536134e2c457c116afe039ba87f6ee3afdc636d"
+    },
+    {
+      "path": "artifact-manifest.json",
+      "bytes": 584020,
+      "sha256": "898ea9713799ab633568d1090e73466b01b4cd325104dee31bacd61de6c623d4"
+    },
+    {
+      "path": "byte-verification.json",
+      "bytes": 6889,
+      "sha256": "fb430ae13481d08bdffb398152ef2ac0c67404b33b1874cf8984ccd866bbd64f"
+    },
+    {
+      "path": "docs/CHECKOUT_AVAILABILITY.md",
+      "bytes": 1569,
+      "sha256": "0c28dee8cb30287528b9a86a6339bf92178b6d3707724057697ff8f3dc3231fe"
+    },
+    {
+      "path": "docs/FIRMWARE_MAP.md",
+      "bytes": 5230,
+      "sha256": "87f6112065c9181f3be9f1cf59393c88fc1863b1d90a8faac7487d3b27f5e77c"
+    },
+    {
+      "path": "docs/HARDWARE_ARCHITECTURE.md",
+      "bytes": 4266,
+      "sha256": "c97392f0ffb088c45b895f1cb1d43cd6fea3ea3dfd02e3494134a52de448a80d"
+    },
+    {
+      "path": "docs/PROJECT_HANDOFF.md",
+      "bytes": 2867,
+      "sha256": "dbb81f3f0ff9f4c8bd7303d2c5497db4b6539930e47cb60f6b84d922cf5c01f7"
+    },
+    {
+      "path": "docs/PUBLIC_SNAPSHOT.md",
+      "bytes": 2040,
+      "sha256": "08f2e1a924bbb41ddf0820adaf34abed9e95a844f3ddfa3bae6adc40e6cf16c7"
+    },
+    {
+      "path": "docs/REFERENCE_NOTES.md",
+      "bytes": 9326,
+      "sha256": "88ff9a7b4977eb0edac481233853212fe53a9ce4324902234a225d256bcc76c8"
+    },
+    {
+      "path": "docs/REPOSITORY_MAP.md",
+      "bytes": 2025,
+      "sha256": "eb0dae141c54a12b664b9aa25f37511f28dc9e4b442558ba51bc30ddaa4551ec"
+    },
+    {
+      "path": "docs/SYSTEM_ARCHITECTURE.md",
+      "bytes": 3289,
+      "sha256": "410c13e9c8c874fdb9e40e0c32082d84963c18abe659ba23494a467458ca026c"
+    },
+    {
+      "path": "docs/firmware-inventory.json",
+      "bytes": 7954,
+      "sha256": "2176eeb3c3d5d0011c8c23f257bca8391f37634043646e318089967231b52d56"
+    },
+    {
+      "path": "docs/hardware/evidence.json",
+      "bytes": 6456,
+      "sha256": "fa00f97fd2d5741dcded56a8d1bb3e7a8d6f918f795404c0e9c6ad66bf43c498"
+    },
+    {
+      "path": "docs/hardware/hgw500-processing-architecture.mmd",
+      "bytes": 583,
+      "sha256": "6be54674e256e7bd5af20070e2c49cfae077f10734b52354e7976567721ee8e6"
+    },
+    {
+      "path": "docs/hardware/hgw500-processing-architecture.png",
+      "bytes": 157066,
+      "sha256": "9b11049483af6b9823a7d27847e077bd584375a4d6f14319b597c788a6f48ab7"
+    },
+    {
+      "path": "docs/loader-notes.md",
+      "bytes": 4861,
+      "sha256": "61a4c4b01ad3799d838a8fb880fb89ef9f0fcc89f41622d6ed5c8d3492cc4135"
+    },
+    {
+      "path": "ghidra-manifest.json",
+      "bytes": 4320,
+      "sha256": "bc14a4711dbc206c7d6b00083719b0a6fd71844a454645289efc6cfc76b70324"
+    },
+    {
+      "path": "ghidra-support/README.md",
+      "bytes": 3247,
+      "sha256": "789538fb21b14a98f64bfae9a0e08ec0ae5b256ec8fdcdff929365c3236ffd3f"
+    },
+    {
+      "path": "ghidra-support/SOURCE_MANIFEST.json",
+      "bytes": 13630,
+      "sha256": "0150b1a9a4bd7223994fb49e36c28685e0e8bcc6ce55f901fdf7e77775394893"
+    },
+    {
+      "path": "ghidra-support/extension-receipt.json",
+      "bytes": 512,
+      "sha256": "bcbfb66d7f6cf7c7730ce0f5a62e56bde2a447f629ebf82f322c8b0ab86a75e7"
+    },
+    {
+      "path": "ghidra-support/ghidra_12.1.3_PUBLIC_20261025_ARCompact.zip",
+      "bytes": 218353,
+      "sha256": "8153e331b8521d5c5bb0797aaa1d7235c8246c96f72a8c55aa9b5b26db63595d"
+    },
+    {
+      "path": "ghidra-support/source/.github/workflows/ghidra-rare-release.yml",
+      "bytes": 1237,
+      "sha256": "1d516cb29878530145b4b53a038ff98729d136df2f5281c94a63e2e3d58cdab1"
+    },
+    {
+      "path": "ghidra-support/source/.gitignore",
+      "bytes": 46,
+      "sha256": "10287156834e07c7790eca7f78a1f7de19523a1eb21b7424097e289e86b72b7c"
+    },
+    {
+      "path": "ghidra-support/source/CREDITS.md",
+      "bytes": 6307,
+      "sha256": "c6fd53588d047db659bd26a98fca36121a2001e4254c40f8c2b07e9509e9a535"
+    },
+    {
+      "path": "ghidra-support/source/GHIDRA-RARE.md",
+      "bytes": 13934,
+      "sha256": "6255ec0877a5892a3e4c715a102cf9ac27cb35868361804f93b2103ad5a602f7"
+    },
+    {
+      "path": "ghidra-support/source/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "ghidra-support/source/Module.manifest",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ghidra-support/source/README.md",
+      "bytes": 4692,
+      "sha256": "6100365589e9af31c8936f216adc6f25fa0e81122a96c7ae6087f298c2de2495"
+    },
+    {
+      "path": "ghidra-support/source/build.gradle",
+      "bytes": 1175,
+      "sha256": "d471cb02d1398cdb4fdfca02cd86506142b3ed3997bab65e0da45dcde13efc54"
+    },
+    {
+      "path": "ghidra-support/source/data/buildLanguage.xml",
+      "bytes": 1662,
+      "sha256": "5a816edd08ff1b72c7846a6c6496d456b32bb4273ef5203544b40bc409d4cfb8"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.cspec",
+      "bytes": 3847,
+      "sha256": "b9a043c6c9be9d0c6739306d81364a58b13d1f095520993893019ac476eeeb6f"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.dwarf",
+      "bytes": 1035,
+      "sha256": "08e45fac6cacc5f0138d28bb39e14d49edc46b1d2c6248e38cc169c26d1a8b76"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.ldefs",
+      "bytes": 1269,
+      "sha256": "9316e552c584f08dfe7bac39d1b1308b51c28b039b96ff63aa9dd7d06ecdd0a8"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.opinion",
+      "bytes": 196,
+      "sha256": "7f6645190a5be92cfc65cadeeba81f0f3af73405815b9b97d2535e90efb8c037"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.pspec",
+      "bytes": 15455,
+      "sha256": "a87584f548b0e3eb74026bbc229900094764d651f7aa332aa04aa5535d7e3f5f"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.sinc",
+      "bytes": 47999,
+      "sha256": "9e799f73ba489918f6ec48bebf26eb3514272e7b3438b3c9f915ad9f9280d127"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact.slaspec",
+      "bytes": 115,
+      "sha256": "7a1b4c747df8f8712989e228bca5544b7d5e9a8a105add5e727f32d09453e8c0"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact_be.cspec",
+      "bytes": 3846,
+      "sha256": "291ed597c3fc742b09d73ba28c22d2ef61ecd453bdf0fb8fe2daeb28f669d354"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact_be.slaspec",
+      "bytes": 106,
+      "sha256": "4f5c69638dde1be45d39c977950b14d333bc3ddbb51cd1b3f7135f4d3d1ca05f"
+    },
+    {
+      "path": "ghidra-support/source/data/languages/ARCompact_ops.sinc",
+      "bytes": 156523,
+      "sha256": "9f064c6e055186f9bc45b8fc3e36b1cfd40f4a32f8e8f89dcc3438a4183dc874"
+    },
+    {
+      "path": "ghidra-support/source/data/sleighArgs.txt",
+      "bytes": 243,
+      "sha256": "8a21939c4cb96f0fbf1acc4d287a2900d3102578b036fab24297291622bda2bf"
+    },
+    {
+      "path": "ghidra-support/source/extension.properties",
+      "bytes": 390,
+      "sha256": "22a55a1fa532984afac4e7a4da5eb511b37d6bca9dac66745c3c3c31795473b2"
+    },
+    {
+      "path": "ghidra-support/source/src/main/java/ghidra/app/util/bin/format/elf/extend/ARCompact_ElfExtension.java",
+      "bytes": 5625,
+      "sha256": "ecc8df583cf95c04cd9264f90078ada8dea22636bf193c6fb26ad9d314b89343"
+    },
+    {
+      "path": "ghidra-support/source/src/main/java/ghidra/app/util/bin/format/elf/relocation/ARCompact_ElfRelocationHandler.java",
+      "bytes": 6934,
+      "sha256": "06768b15b9801f9806ede046f685c1c1ccc475d07dd224990ee371968424d67d"
+    },
+    {
+      "path": "ghidra-support/source/src/main/java/ghidra/app/util/bin/format/elf/relocation/ARCompact_ElfRelocationType.java",
+      "bytes": 2238,
+      "sha256": "6238a0d05b1ba797d7725da8415e6f457007f45adfdd4605784794c7298d5047"
+    },
+    {
+      "path": "ghidra-support/source/test/CoverageCheck.java",
+      "bytes": 6296,
+      "sha256": "cea702a4ef243f4bfa0a40a2dbf04a6961aac66a9365c58071d0044a716eface"
+    },
+    {
+      "path": "ghidra-support/source/test/DumpMem.java",
+      "bytes": 918,
+      "sha256": "57209d655636c10ef8afe630f6a83962c95c7064a22bfb822f11cbac176cf063"
+    },
+    {
+      "path": "ghidra-support/source/test/DumpSlots.java",
+      "bytes": 2186,
+      "sha256": "045b4498a798ddc5a9c7b6d2f90ac176071d4450849fc59c70cb5be627e672eb"
+    },
+    {
+      "path": "ghidra-support/source/test/EmuCheck.java",
+      "bytes": 3315,
+      "sha256": "da46426ab713c69d1351296d10abadc01ab389f724a5fdb0a3b49fefaa916a02"
+    },
+    {
+      "path": "ghidra-support/source/test/RealCheck.java",
+      "bytes": 8043,
+      "sha256": "e5662fd90130786ddc877f01d5a912c1879bba073226cadf3d0038ec267ed0d8"
+    },
+    {
+      "path": "ghidra-support/source/test/build-jar.sh",
+      "bytes": 725,
+      "sha256": "bdb7587a7b11b6affa97716a216be885456b29c6d650eea32c79b551f683884d"
+    },
+    {
+      "path": "ghidra-support/source/test/compare.py",
+      "bytes": 12140,
+      "sha256": "b372e7a2f049c54837b6176432354e0aec467de819087023ceeebbed11abe2dc"
+    },
+    {
+      "path": "ghidra-support/source/test/decode-diff.sh",
+      "bytes": 1072,
+      "sha256": "b632015aeb979f9c09210814fa503c72413d7c5ebda3c4a64f761ea5eab8b0e5"
+    },
+    {
+      "path": "ghidra-support/source/test/elf/relocs.s",
+      "bytes": 580,
+      "sha256": "5a4e596cd5cb50ae45bcb91623d276d79ca77439a37f57ab67d3e63d91b361d3"
+    },
+    {
+      "path": "ghidra-support/source/test/emu_tests.py",
+      "bytes": 12496,
+      "sha256": "2e678887ed4682314c6f95694014bfb7f10518aac91c162910d8fd0a6dbe1367"
+    },
+    {
+      "path": "ghidra-support/source/test/env.sh",
+      "bytes": 517,
+      "sha256": "4041a965355ffb8cce6a932096731a54765b0d28cedd8be0276a12547dc963d9"
+    },
+    {
+      "path": "ghidra-support/source/test/fetch-real-samples.sh",
+      "bytes": 3202,
+      "sha256": "ecb28f371e315822d6c10c20d63363dd812d43ee25a6b4b6d7346ff374e97db8"
+    },
+    {
+      "path": "ghidra-support/source/test/gen_corpus.py",
+      "bytes": 2888,
+      "sha256": "2ffc5f9f914fd312e170f1dc089ded04c59059a95d8bbfd29fb4dbcda36f64af"
+    },
+    {
+      "path": "ghidra-support/source/test/ghidra-script.sh",
+      "bytes": 992,
+      "sha256": "4ed1e55de01e4939f0dc527c4898ce0133be684c01ab9b30abb6848d1357d8e9"
+    },
+    {
+      "path": "ghidra-support/source/test/ghidra-slots.sh",
+      "bytes": 759,
+      "sha256": "c4baa596ab56748a0c7931abf17ee543a20174d3a8a0b19ac24af76ba27cfd97"
+    },
+    {
+      "path": "ghidra-support/source/test/rawcmp.py",
+      "bytes": 1070,
+      "sha256": "81f819c24dde22109011aafa38d714d5b06ea53e6daba7a06d876a5175c76f64"
+    },
+    {
+      "path": "ghidra-support/source/test/real-binaries.sh",
+      "bytes": 2092,
+      "sha256": "52352adfd5f0556d109ac45fd0052761d0a3f42bd20744a1dde639748b479b10"
+    },
+    {
+      "path": "ghidra-support/source/test/realcmp.py",
+      "bytes": 2268,
+      "sha256": "a4e8555d80e2c13f8938d7678841e4d7d040189343b7add6e2b391248944131e"
+    },
+    {
+      "path": "ghidra-support/source/test/reloc-check.sh",
+      "bytes": 1574,
+      "sha256": "9cca16cb5bb2ab54684a328f6c3eb72f32a58f945d955735c22a80f4ac7ac6cc"
+    },
+    {
+      "path": "ghidra-support/source/test/run-tests.sh",
+      "bytes": 4683,
+      "sha256": "a7221da0f73be17bcfd4cb7b4e67db19adc85cdf0bad8a509e4c7d3e5baaa83d"
+    },
+    {
+      "path": "ghidra-support/source/test/slotdis.c",
+      "bytes": 3397,
+      "sha256": "0980b5d89600f003357ea6cab9b22d24c7c2fda179e9513b8553497ea737d869"
+    },
+    {
+      "path": "ghidra-support/source/tools/gen_arcompact.py",
+      "bytes": 24682,
+      "sha256": "4307d030c5af81550127504244dfce920eb98eff59d499962830cc27b06f406d"
+    },
+    {
+      "path": "ghidra-support/verify_support.py",
+      "bytes": 2516,
+      "sha256": "edf34da7f13a3aa122dc18d2ffaba8be93fe0070f45cc89d5543e026f6e944c6"
+    },
+    {
+      "path": "reference-loader/om73_fw_profiles.h",
+      "bytes": 1040,
+      "sha256": "301a427f90314c089dd2cf811745567cf7be28189e2d66c86c0bd934e235e30f"
+    },
+    {
+      "path": "reference-loader/qdrv_fw.c",
+      "bytes": 14548,
+      "sha256": "6c261926750aefcc77ac49b710cc36fb9007ad0aae1aa60374290a0f131c7402"
+    },
+    {
+      "path": "reference-loader/qdrv_fw.h",
+      "bytes": 1639,
+      "sha256": "573cd21f7d16a83567620b159ce5f2af8a5c58525eaaf42f7c145a429fa403cb"
+    },
+    {
+      "path": "tools/analyze.py",
+      "bytes": 10058,
+      "sha256": "564ab069f4f90b85b786d2bab170060db9d7a5797a484d7644937a57240eb609"
+    },
+    {
+      "path": "tools/finalize.py",
+      "bytes": 6143,
+      "sha256": "1dd20f3486cbb0bd983af39e9c0b628b3e39acbadddf6d4dff0b9a0cae3ee64d"
+    },
+    {
+      "path": "tools/ghidra/run_ghidra.py",
+      "bytes": 4206,
+      "sha256": "efd4055e34b35ae02d751db49718c9ac5ec0e0961b903953fa06b9f8d4ab1f89"
+    },
+    {
+      "path": "tools/ghidra/scripts/ExportQuantenna.java",
+      "bytes": 13589,
+      "sha256": "927033a2335ebf3913a9e883be65e45916b170dbc7d76e708223f63beca84ed8"
+    },
+    {
+      "path": "tools/ghidra/scripts/MapQuantennaCarrier.java",
+      "bytes": 10314,
+      "sha256": "64add6b849783d01edaaf89ada4cd416a779180148483feb8313f10212e1f0dc"
+    },
+    {
+      "path": "tools/ghidra/scripts/SnapshotQuantenna.java",
+      "bytes": 18106,
+      "sha256": "4f984a689f9f258c7425058b09bd9d51bb0b24f4d99dc4a53b5986d3260f29f3"
+    },
+    {
+      "path": "tools/ghidra/scripts/compare.py",
+      "bytes": 2242,
+      "sha256": "e50ce3e356f23aa90df588c57a60ca5e1d83c0938008252ea57285481bed4e13"
+    },
+    {
+      "path": "tools/ghidra/scripts/verify_export.py",
+      "bytes": 6126,
+      "sha256": "34990ff8faf42179f5aeb83bfa9dbe51b43693c2bf8bc02bdbf12f12809ce8b7"
+    },
+    {
+      "path": "tools/package_children.py",
+      "bytes": 8448,
+      "sha256": "459905bcff617721d1c713e278c122b7113c26d29908d013ab3e6aa26173950c"
+    },
+    {
+      "path": "tools/refresh_assembly.py",
+      "bytes": 2662,
+      "sha256": "f9114ec3ae6e4b313de55549a4e60bb7c5a258bf0ec1fc87aa924a903cfefe70"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 10015,
+      "sha256": "a33a873185fcce7e026ff987996b8d4cf75fda1e6c377717477614891745b385"
+    },
+    {
+      "path": "tools/verify_public_export.py",
+      "bytes": 612,
+      "sha256": "a6e93c83fe924f71c3a7597e3da723ab7df3da945daa9aca1c8515ca0dbab096"
+    }
+  ],
+  "actions_enabled": false,
+  "submodule_scope": "Public project dependencies are navigational snapshots, not the historical release pins.",
+  "public_submodules": [
+    {
+      "path": "auc",
+      "original_pin": "91ffa05b5db9299ae9a95a17cfc3a73b2b21e18f",
+      "public_pin": "fd938635cdfb6036a8f453d43960dde65814a29c",
+      "public_repository": "apelsito/hgw500-5ghz-firmware-auc-public"
+    },
+    {
+      "path": "dsp",
+      "original_pin": "b9dd90c74d07a5aea16c97a9b657cfae1c7f3ce7",
+      "public_pin": "4085fc7a69232e06402f04b39c2d67f8c4045703",
+      "public_repository": "apelsito/hgw500-5ghz-firmware-dsp-public"
+    },
+    {
+      "path": "muc",
+      "original_pin": "5d5ce35de2fad00513b80f40a6dbd111f2d23c48",
+      "public_pin": "d4317c9d71e0e70748d46988a74c0307a11a6081",
+      "public_repository": "apelsito/hgw500-5ghz-firmware-muc-public"
+    }
+  ]
+}
